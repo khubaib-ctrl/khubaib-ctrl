@@ -51,16 +51,33 @@ I'm a software engineer with a passion for Machine Learning, Generative AI, and 
 
 #
 
-### 🏗️ Featured Projects
+### 🏗️ Featured Project
 
-| Project | Description |
+#### [Turn Around](https://github.com/khubaib-ctrl/TrunAround) — Version control for video
+
+**Commits, branches, and a time-travel slider through your project history.**
+
+A desktop app that brings a Git-like workflow to video production. No more `Project_final_v3_really_FINAL.prproj` — initialize a project, commit when it matters, branch to experiment, and scrub back through every version you've saved.
+
+**Download:** [Latest release (macOS Apple Silicon)](https://github.com/khubaib-ctrl/TrunAround/releases) — .dmg installer
+
+| Feature | What it does |
 | --- | --- |
-| **Upwork Bot** | AI-powered system that scrapes real-time Upwork jobs and uses a fine-tuned LLM to auto-generate tailored proposals, integrated with Discord for alerts |
-| **Conva AI** | AI-based legal assistant with document analysis, annotation, and voice interaction using Gemini AI, Next.js & Tailwind CSS |
-| **Deep Tutor** | AI-driven learning platform with Next.js and Gemini API for interactive AI-powered question answering |
-| **Movie Recommendation App** | React Native app suggesting movies based on genre/user history with search & real-time updates |
+| **Commits** | Snapshot your project with a message (and optional milestone) |
+| **Branches** | Try a risky cut or alternate edit without touching the main timeline |
+| **Time-travel slider** | Move through commit history and see what changed, when |
+| **Timeline diffs** | Compare two versions side-by-side: tracks and clips, added/removed/modified |
+| **Smart storage** | Content-addressable dedup — large media isn’t duplicated; small/project files stored in full |
+| **File watcher** | Edits are detected; you get a nudge to commit instead of forgetting |
+
+Supports **OpenTimelineIO (OTIO)** and **Final Cut Pro XML (FCPXML)**. Your data stays on your machine. No cloud lock-in.
+
+**Tech:** Angular 21 · TypeScript · RxJS · Rust · Tauri 2 · SQLite
+
+*Turn Around — so you can go back.*
 
 #
+
 
 ### 🏆 GitHub Trophies
 
